@@ -202,4 +202,4 @@ end
 function argb_to_rgba(argb)
 	local a, r, g, b = explode_argb(argb)
 	return join_argb(a, b, g, r)
-end
+endl
